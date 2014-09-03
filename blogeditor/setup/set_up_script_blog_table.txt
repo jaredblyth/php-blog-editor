@@ -1,0 +1,14 @@
+CREATE TABLE blog
+ (
+ entry_id INT(11) AUTO_INCREMENT,
+ title VARCHAR(100),
+ entry TEXT,
+ date_entered DATETIME,
+ category VARCHAR(20),
+ author VARCHAR(20),
+ description VARCHAR(300),
+ keywords VARCHAR(200),
+ feature VARCHAR(100),
+ n VARCHAR(50),
+ PRIMARY KEY (entry_id)
+ ); 

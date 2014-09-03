@@ -1,0 +1,12 @@
+CREATE TABLE subscribers
+ (
+ subscriber_id INT(11) AUTO_INCREMENT,
+ first_name VARCHAR(30),
+ last_name VARCHAR(30),
+ subscriber_email VARCHAR(50),
+ date_registered DATETIME,
+ subscriber_age VARCHAR(10),
+ subscriber_sex VARCHAR(10),
+ subscriber_location VARCHAR(30),
+ PRIMARY KEY (subscriber_id)
+ );

@@ -1,0 +1,12 @@
+CREATE TABLE blog_comments
+ (
+ comment_id INT(11) AUTO_INCREMENT,
+ comment_first_name VARCHAR(30),
+ comment_last_name VARCHAR(30),
+ comment_email VARCHAR(50),
+ comment VARCHAR(300),
+ comment_date DATETIME,
+ comment_blog_id VARCHAR(20),
+ comment_approved VARCHAR(20),
+ PRIMARY KEY (comment_id)
+ );

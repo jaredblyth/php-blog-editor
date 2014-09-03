@@ -1,0 +1,13 @@
+CREATE TABLE members
+ (
+ member_id INT(11) AUTO_INCREMENT,
+ first_name VARCHAR(30),
+ last_name VARCHAR(30),
+ member_email VARCHAR(50),
+ member_password VARCHAR(30),
+ date_registered DATETIME,
+ member_age VARCHAR(10),
+ member_sex VARCHAR(10),
+ member_location VARCHAR(30),
+ PRIMARY KEY (member_id)
+ );
