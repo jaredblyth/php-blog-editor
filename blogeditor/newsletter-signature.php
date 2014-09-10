@@ -3,7 +3,7 @@
 
 <div>
 <div dir="ltr">
-<p><strong>GFJ x</strong></p>
+<p><strong>XXXX</strong></p>
 </div>
 </div>
 </div>
